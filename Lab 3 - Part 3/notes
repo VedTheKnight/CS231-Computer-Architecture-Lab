@@ -1,0 +1,18 @@
+lea better than move - https://stackoverflow.com/questions/1658294/whats-the-purpose-of-the-lea-instruction
+use lea to speed up computations - https://stackoverflow.com/questions/57110383/x86-multiplication-with-3-imul-vs-shl-add
+
+
+can improve lincomb_col similar to row
+
+    N           Col             Row
+   128          1872819         688734
+   256          12698332        1161392
+   512          91130203        4637745
+   1024         361387347       20527734
+   2048         1058747324      79654577
+
+   x axis size y axis time
+
+   tsc = 3193.909 MHz
+
+   
